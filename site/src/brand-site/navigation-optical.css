@@ -1,0 +1,25 @@
+/* Transparent optical navigation. No enclosing capsule, border or opaque plate. */
+header{position:relative;background:transparent;isolation:isolate}
+.brand{position:relative;z-index:2;text-shadow:0 2px 12px #0b0d15}
+.nav-cluster{position:absolute;left:50%;top:0;transform:translateX(-50%);height:72px;display:flex;align-items:center;gap:36px;white-space:nowrap}
+.links{gap:36px;margin:0;align-items:center}
+header .text-action:not(.skip){position:relative;min-height:48px;padding:10px 0}
+header .links .text-action .action-main{font-size:13px;letter-spacing:.08em;color:#b9b7d8;text-shadow:0 2px 6px #0b0d15,0 0 15px #0b0d15}
+header .text-action .action-copy{position:relative;z-index:1;transition:filter .3s ease}
+header .text-action:is(:hover,:focus-visible) .action-copy{transform:none!important;filter:brightness(1.12)}
+header .links .text-action[aria-current=page] .action-main{color:#e6ac80;text-shadow:0 2px 6px #0b0d15,0 0 15px #e6ac8044}
+header .text-action::before{content:'';position:absolute;inset:4px -16px;background:radial-gradient(ellipse,#8f8bc52b,transparent 70%);opacity:0;transition:opacity .3s ease;pointer-events:none}
+header .text-action:is(:hover,:focus-visible)::before{opacity:1}
+header .links .text-action[aria-current=page]::after{content:'';position:absolute;bottom:2px;left:calc(50% - 2px);width:4px;height:4px;background:#e6ac80;transform:rotate(45deg);box-shadow:0 0 7px #e6ac8066;pointer-events:none}
+header .text-action:focus-visible .action-main{color:#fff2df}
+@media(max-width:1000px){.nav-cluster,.links{gap:26px}.links{margin:0}}
+@media(max-width:760px){
+ header{padding:0 14px}
+ .brand>span{display:none}.brand img{width:22px;height:26px}
+ .nav-cluster{left:50%;right:auto;transform:translateX(-50%);gap:0}
+ .links{display:flex;gap:14px;margin:0}
+ header .links .text-action{min-width:32px;justify-content:center}
+ header .links .text-action .action-main{font-size:11px;letter-spacing:.04em}
+}
+@media(prefers-reduced-motion:reduce){header .text-action::before,header .text-action .action-copy{transition:none}}
+

@@ -1,0 +1,26 @@
+/* Pure typography is the affordance. The only line is transient emitted light. */
+@font-face{font-family:Manrope;src:url('/assets/brand/v002/fonts/Manrope-VF-subset.woff2');font-display:swap}
+.text-action{
+ display:inline-flex;align-items:center;justify-content:flex-start;min-height:48px;
+ padding:8px 0;margin:0;border:0;border-radius:0;background:transparent;box-shadow:none;
+ color:#B9B7D8;font:400 16px/1.5 Manrope,PhaseCN,'Microsoft YaHei',sans-serif;
+ letter-spacing:.05em;text-decoration:none;text-align:left;cursor:pointer;
+}
+.text-action .action-copy{display:inline-flex;flex-direction:column;align-items:flex-start;gap:6px;transform:translateX(0);transition:transform .4s cubic-bezier(.16,1,.3,1)}
+.text-action .action-main{position:relative;display:inline-block;color:#B9B7D8;font:inherit;font-size:16px;line-height:1.5;letter-spacing:.05em;transition:color .35s ease}
+.text-action .action-sub{display:block;color:#B9B7D8;opacity:.72;font:inherit;font-size:12px;line-height:1.5;letter-spacing:.05em;margin:0}
+.text-action .action-main::after{content:'';position:absolute;left:50%;bottom:-3px;transform:translateX(-50%);width:0;height:1px;background:#E6AC80;box-shadow:0 0 8px #E6AC80;opacity:0;transition:width .4s cubic-bezier(.16,1,.3,1),opacity .3s ease}
+.text-action:focus-visible{outline:none}
+.text-action:focus-visible .action-main{color:#E6AC80}
+.text-action:focus-visible .action-main::after{width:100%;opacity:1}
+.text-action:focus-visible .action-copy{transform:translateX(4px)}
+@media(hover:hover){
+ .text-action:not(:disabled):hover .action-main{color:#E6AC80}
+ .text-action:not(:disabled):hover .action-main::after{width:100%;opacity:1}
+ .text-action:not(:disabled):hover .action-copy{transform:translateX(4px)}
+}
+.text-action:active:not(:disabled) .action-main{color:#E6AC80}
+.text-action:is([aria-selected=true],[aria-current=page],[aria-current=location]) .action-main{color:#E6AC80}
+.text-action:disabled{opacity:.45;cursor:default}
+.text-action:disabled .action-main::after{width:0;opacity:0}
+@media(prefers-reduced-motion:reduce){.text-action .action-copy,.text-action .action-main,.text-action .action-main::after{transition:none}.text-action:is(:hover,:focus-visible) .action-copy{transform:none}}

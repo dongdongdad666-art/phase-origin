@@ -1,0 +1,18 @@
+/* Shared navigation adapts the page shell; scene code, materials and controls are untouched. */
+body[data-phase-section] > main {scroll-margin-top:82px}
+.phase-context{border-top:1px solid #ffffff22;padding:24px 0 16px;margin-top:22px;font-size:12px;line-height:1.8}
+.phase-context p{color:#b9b7d8;margin:0 0 14px}.phase-context nav{display:flex;gap:14px;flex-wrap:wrap}.phase-context a{display:inline-flex;align-items:center;min-height:44px;color:#f1f0ec;text-decoration:none}.phase-context nav a[aria-current=page]{color:#e6ac80}.phase-context .phase-continue{display:flex;color:#e6ac80;margin-top:14px}.phase-context .phase-return{display:flex;color:#b9b7d8;font-size:11px}.phase-context .text-action:focus-visible{outline:none}
+body[data-phase-section=story] > phase-navigation{position:fixed;inset:0 0 auto;z-index:50}
+body[data-phase-section=story] #experience > header{top:94px;left:4vw;right:4vw;gap:20px}
+body[data-phase-section=story] #experience > header .edition{margin-left:0;font-size:10px}
+body[data-phase-section=story] #experience > header .header-actions{margin-left:auto}
+body[data-phase-section=story] #experience > header .brand{font-size:12px;letter-spacing:0;white-space:nowrap}
+body[data-phase-section=story] .info-document a{color:#e6ac80;text-decoration:none;display:inline-flex;align-items:center;min-height:44px;padding:8px 0}
+body[data-phase-section=story] .info-document a:focus-visible{outline:2px solid #e6ac80;outline-offset:4px}
+.phase-context svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.4;margin-left:16px}
+@media(min-width:761px){body:is([data-phase-section=leaf],[data-phase-section=core],[data-phase-section=array],[data-phase-section=exhibition]) > main{height:calc(100dvh - 72px)}body[data-phase-section=exhibition].immersive .stage{height:calc(100dvh - 72px)}}
+body[data-phase-section=story] #experience > header{top:84px}
+@media(min-width:761px){body:is([data-phase-section=leaf],[data-phase-section=core],[data-phase-section=array],[data-phase-section=exhibition]) > main{height:calc(100dvh - 82px)}body[data-phase-section=exhibition].immersive .stage{height:calc(100dvh - 82px)}}
+@media(max-width:760px){body[data-phase-section=story] #experience > header{top:112px;left:20px;right:20px;gap:10px}body[data-phase-section=story] #experience > header .edition{display:none}body[data-phase-section=story] #experience > header .header-actions{gap:12px}body[data-phase-section=story] #experience > header .header-actions button{font-size:10px}body[data-phase-section=exhibition].immersive .stage{height:calc(100dvh - 104px)}}
+@media(min-width:761px){body:is([data-phase-section=leaf],[data-phase-section=core],[data-phase-section=array],[data-phase-section=exhibition]) > main{height:calc(100dvh - 72px)}body[data-phase-section=exhibition].immersive .stage{height:calc(100dvh - 72px)}}
+@media(max-width:760px){body[data-phase-section=story] #experience > header{top:84px}body[data-phase-section=exhibition].immersive .stage{height:calc(100dvh - 72px)}}

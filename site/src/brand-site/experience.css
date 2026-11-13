@@ -1,0 +1,8 @@
+.leaf-activate{position:absolute;left:16%;bottom:22px;z-index:4;touch-action:pan-y;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none}
+.opening-object canvas{cursor:grab;-webkit-touch-callout:none}
+.opening[data-experience=holding] canvas{cursor:grabbing}
+.opening:is([data-experience=entering],[data-experience=focused],[data-experience=returning]) canvas{cursor:default}
+.focus-return{position:absolute;left:0;top:auto;bottom:86px;z-index:5}
+.focus-return[hidden]{display:none}
+.focus-status{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(max-width:760px){.leaf-activate{left:20px;bottom:10px}.focus-return{top:8px;bottom:auto}.opening-object{translate:0 calc(var(--focus-progress,0) * -130px)}}

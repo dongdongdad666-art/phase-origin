@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "originalVectors": [
+    "phase-origin-horizontal-dark-v001.svg",
+    "phase-origin-compact-dark-v001.svg",
+    "phase-origin-english-dark-v001.svg",
+    "phase-origin-symbol-dark-v001.svg",
+    "phase-origin-micro-dark-v001.svg",
+    "phase-origin-horizontal-light-v001.svg",
+    "phase-origin-compact-light-v001.svg",
+    "phase-origin-english-light-v001.svg",
+    "phase-origin-symbol-light-v001.svg",
+    "phase-origin-micro-light-v001.svg",
+    "phase-origin-symbol-signal-v001.svg",
+    "phase-origin-contours-v001.svg"
+  ],
+  "fontSources": [
+    {
+      "family": "Manrope",
+      "url": "https://github.com/google/fonts/tree/main/ofl/manrope",
+      "license": "SIL OFL 1.1",
+      "file": "fonts/Manrope-VF.ttf"
+    },
+    {
+      "family": "Noto Sans SC",
+      "url": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+      "license": "SIL OFL 1.1",
+      "file": "fonts/NotoSansSC-VF.ttf"
+    }
+  ],
+  "wordmark": "Typeset in open-source fonts with adjusted spacing; outlined, not an original typeface.",
+  "imagery": "Scene captures from this project; see tests/brand-foundation/model-capture-v001.json.",
+  "files": {
+    "Manrope-OFL.txt": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+    "Manrope-VF-subset.woff2": "e4952158bc79da68b286fae5a56145e92be176c2f0a181e5067d7e7980c37f5e",
+    "Manrope-VF.ttf": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+    "NotoSansSC-OFL.txt": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+    "NotoSansSC-VF-subset.woff2": "1990629b0697936b06ab336aed9f0beec573f207833e7e6a40fb0114656adf72",
+    "NotoSansSC-VF.ttf": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da"
+  }
+}

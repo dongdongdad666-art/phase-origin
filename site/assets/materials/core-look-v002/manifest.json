@@ -1,0 +1,55 @@
+{
+  "source": "deterministic analytical PBR data maps",
+  "seed": 340527,
+  "textures": [
+    {
+      "file": "shell-color.png",
+      "width": 1024,
+      "height": 1024,
+      "meaning": "sRGB pigmented blue ceramic; restrained variation, no baked illumination",
+      "sha256": "85ad8d80126fa72ed23b2269c5265a9c547cc235774fe839942fa1c84d1d549f"
+    },
+    {
+      "file": "shell-orm.png",
+      "width": 1024,
+      "height": 1024,
+      "meaning": "Linear data: R=1, G=roughness, B=1; multiply metalness factor in material",
+      "sha256": "0dbab5f21c24554af2f564ed1c616caa91990b54105d2059f07775c4b412a4b3"
+    },
+    {
+      "file": "shell-normal.png",
+      "width": 1024,
+      "height": 1024,
+      "meaning": "Tangent normal microfinish; linear color space, positive Y",
+      "sha256": "28a060cf8008fb69d3ec6fd4c67c3722e7e6e32cfdf92383574b1f03769c53db"
+    },
+    {
+      "file": "shell-film.png",
+      "width": 1024,
+      "height": 1024,
+      "meaning": "Linear thin-film thickness mask, G channel",
+      "sha256": "61567ddb11b50da101ec2de0cbb8f90b6b922a95f90ec9c99a588d3651fcc7c4"
+    },
+    {
+      "file": "titanium-orm.png",
+      "width": 1024,
+      "height": 1024,
+      "meaning": "Linear directional titanium roughness; G channel",
+      "sha256": "1ffd4b6944cb5e240bd75293ef1219cebc193cc761d93d93cd31f5d3cc9f9885"
+    },
+    {
+      "file": "titanium-normal.png",
+      "width": 1024,
+      "height": 1024,
+      "meaning": "Fine directional brush tangent normals",
+      "sha256": "591c3c9b270008d6d9aae6c74eced3297a0b210edc65aa963722e3f39347835a"
+    },
+    {
+      "file": "inner-orm.png",
+      "width": 1024,
+      "height": 1024,
+      "meaning": "Linear matte internal coating roughness",
+      "sha256": "50d61e1ad15c18297111055fe370a4530c239c3f6ce4119394b1c771f8f5d17d"
+    }
+  ]
+}

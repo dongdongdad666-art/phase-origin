@@ -1,0 +1,34 @@
+{
+  "version": "v001",
+  "colorSpace": "sRGB",
+  "colors": {
+    "void": "#10121F",
+    "porcelain": "#F1F0EC",
+    "refraction": "#585ECC",
+    "mist": "#B9B7D8",
+    "signal": "#E6AC80",
+    "slate": "#5C6173"
+  },
+  "fonts": {
+    "latin": "Manrope",
+    "cjk": "Noto Sans SC"
+  },
+  "spacing": [
+    8,
+    16,
+    24,
+    32,
+    48,
+    64,
+    96
+  ],
+  "logo": {
+    "clearSpaceRatio": 0.25,
+    "mainSymbolMinCssPx": 24,
+    "microMinCssPx": 16,
+    "horizontalLockupMinCssPx": 220,
+    "compactLockupMinCssPx": 160,
+    "englishLockupMinCssPx": 280
+  },
+  "status": "design proposal; aesthetic review pending"
+}

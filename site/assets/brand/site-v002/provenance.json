@@ -1,0 +1,17 @@
+{
+  "purpose": "Website redesign v002 provenance; no new generated raster is shipped",
+  "liveModels": [
+    {"source":"src/leaf-lab/model.mjs + src/leaf-lab/finish.mjs", "use":"Live LEAF and arc ARRAY preview", "origin":"Existing user-approved product geometry/material implementation; reused unchanged"},
+    {"source":"src/core-lab/model.mjs + src/core-lab/finish.mjs", "use":"Live CORE preview", "origin":"Existing user-approved product geometry/material implementation; reused unchanged"}
+  ],
+  "rasters": [
+    {"path":"assets/brand/site-v001/leaf.png", "origin":"Prior task Playwright screenshot of the project's real LEAF canvas with overlay UI temporarily hidden", "use":"Fallback and relation preview"},
+    {"path":"assets/brand/site-v001/core.png", "origin":"Prior task Playwright screenshot of the project's real CORE canvas with overlay UI temporarily hidden", "use":"Fallback and relation preview"},
+    {"path":"assets/brand/site-v001/array.png", "origin":"Prior task Playwright screenshot of the project's real ARRAY canvas with overlay UI temporarily hidden", "use":"Fallback and relation preview"},
+    {"path":"assets/brand/site-v001/exhibition.png", "origin":"Prior task Playwright screenshot of the project's approved exhibition canvas", "use":"Exhibition section, menu and case link"},
+    {"path":"assets/brand/v001/scene-core.png", "origin":"Existing project brand-foundation image, retained from v001 assets", "use":"Brand narrative preview; explicitly labeled concept narrative"},
+    {"path":"assets/brand/v001/png/phase-origin-symbol-light-v001.png", "origin":"Existing PHASE ORIGIN brand identity export", "use":"Shared navigation"},
+    {"path":"assets/brand/v001/png/phase-origin-symbol-signal-v001.png", "origin":"Existing PHASE ORIGIN brand identity export", "use":"Favicon"}
+  ],
+  "referenceOnly": "Hatom, Lusion, Igloo and FutureDeluxe screenshots in work/20261029-网站设计重做 are research evidence only, not shipped imagery or copied source code. FutureDeluxe video restricted; Hatom second entry attempt timed out."
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "local": "/assets/models/core-look-v004/core.glb",
+    "key": "core-94d405f484ce968e.glb",
+    "bytes": 35398776,
+    "sha256": "94d405f484ce968e5107ba4b322264a8a1e150f8aa58ae914607eb76c0b71e05"
+  },
+  {
+    "local": "/assets/models/phase-deform-v005/ark.glb",
+    "key": "ark-05166cb4ec40d5e5.glb",
+    "bytes": 33668556,
+    "sha256": "05166cb4ec40d5e52aae5ee51b0ad7efdedbb540963bb81ba796e6c8ee79928d"
+  },
+  {
+    "local": "/assets/models/phase-deform-v005/blade.glb",
+    "key": "blade-34144c69761d6d9e.glb",
+    "bytes": 12775148,
+    "sha256": "34144c69761d6d9e605647becbdbc759713344e270cf5746a60918cb79bf4467"
+  },
+  {
+    "local": "/assets/models/phase-deform-v005/capsule.glb",
+    "key": "capsule-f36ec897bd4d9ea2.glb",
+    "bytes": 43135048,
+    "sha256": "f36ec897bd4d9ea22dcddb402e3fd6dead5e549b49477021b3210fafcb424bfd"
+  },
+  {
+    "local": "/assets/models/phase-deform-v005/tree.glb",
+    "key": "tree-f03e467805b770de.glb",
+    "bytes": 51986396,
+    "sha256": "f03e467805b770de4928ee5b43a178b129b285f073bf1942fcf1b3c80150d5ed"
+  },
+  {
+    "local": "/assets/models/transit-gate-v001/gate.glb",
+    "key": "gate-be947728db51504b.glb",
+    "bytes": 1835432,
+    "sha256": "be947728db51504b77e51f3b3b4e16540fc94dd32ba06d982ff4aa00a638e864"
+  }
+]

@@ -1,0 +1,22 @@
+/* Navigation and material cues are quiet instruments around the scene. */
+.scene-hotspot #leaf-hotspot .action-main::before{content:'';position:absolute;left:-12px;top:calc(50% - 3px);width:4px;height:4px;border:1px solid #b9b7d8;border-radius:50%;background:transparent;transition:background .25s,border-color .25s}
+.scene-hotspot #leaf-hotspot:is(:hover,:focus-visible) .action-main::before{background:#e6ac80;border-color:#e6ac80}
+.scene-hotspot #leaf-hotspot .action-main::after{display:none}
+input[type=range]::-webkit-slider-runnable-track{height:1px;background:linear-gradient(90deg,#1b2c4e 0%,#31425e 40%,#ba815e 75%,#e6ac80 100%);box-shadow:2px 0 5px #e6ac8038}
+input[type=range]::-moz-range-track{height:1px;background:linear-gradient(90deg,#1b2c4e 0%,#31425e 40%,#ba815e 75%,#e6ac80 100%);box-shadow:2px 0 5px #e6ac8038}
+input[type=range]::-webkit-slider-thumb{margin-top:-10.5px;transition:transform .25s ease;transform:scale(1)}
+input[type=range]::-moz-range-thumb{transition:transform .25s ease;transform:scale(1)}
+input[type=range]:is(:hover,:focus-visible)::-webkit-slider-thumb{transform:scale(1.2)}
+input[type=range]:is(:hover,:focus-visible)::-moz-range-thumb{transform:scale(1.2)}
+.chapter-rail{left:28px;bottom:24px;flex-direction:column;gap:0;padding:0;background:none}
+.chapter-rail::before{content:'';position:absolute;left:-10px;top:12px;bottom:12px;width:1px;background:#b9b7d833}
+.chapter-rail>.text-action{position:relative;min-height:30px;padding:0 2px}
+.chapter-rail>.text-action::before{content:'';position:absolute;left:-12px;top:50%;width:5px;height:1px;background:#707e9b}
+.chapter-rail>.text-action[aria-current=location]::before{background:#e6ac80;box-shadow:0 0 5px #e6ac8066}
+.chapter-rail .action-copy{flex-direction:row-reverse;align-items:baseline;gap:10px}
+.chapter-rail .action-main{font-size:11px;letter-spacing:.08em}
+.chapter-rail .action-sub{font-size:9px;opacity:.55;font-variant-numeric:tabular-nums}
+.chapter-rail .action-main::after{display:none}
+.opening .focus-return{left:72px}
+@media(max-width:760px){.chapter-rail{position:relative;left:30px;bottom:auto;width:max-content;margin:0 0 24px;padding:0;align-items:flex-start}.opening .focus-return{left:0}.chapter-rail>.text-action{min-height:40px}}
+@media(prefers-reduced-motion:reduce){input[type=range]:is(:hover,:focus-visible)::-webkit-slider-thumb,input[type=range]:is(:hover,:focus-visible)::-moz-range-thumb{transform:none}}

@@ -1,0 +1,14 @@
+/* The prologue owns one immersive control bar, without the website header. */
+body[data-phase-section=story] #experience > header{top:22px;left:4vw;right:4vw;gap:20px}
+[data-journey] .journey-home{display:inline-flex;align-items:center;min-height:44px;color:#b9b7d8;text-decoration:none;font-size:12px;white-space:nowrap;transition:color .25s}
+[data-journey] .journey-home:hover{color:#e6ac80}
+[data-journey] .about-short{display:none}
+@media(max-width:900px){body[data-phase-section=story] #experience > header .edition{display:none}}
+@media(max-width:700px){
+ body[data-phase-section=story] #experience > header{top:12px;left:18px;right:18px;gap:12px}
+ body[data-phase-section=story] #experience > header .header-actions{gap:10px}
+ body[data-phase-section=story] #experience > header .brand,[data-journey] .journey-home{font-size:10px;padding:0;min-height:44px}
+ [data-journey] .about-full{display:none}[data-journey] .about-short{display:inline}
+}
+@media(max-width:360px){body[data-phase-section=story] #experience > header{left:14px;right:14px;gap:9px}body[data-phase-section=story] #experience > header .header-actions{gap:8px}}
+@media(prefers-reduced-motion:reduce){[data-journey] .journey-home{transition:none}}

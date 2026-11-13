@@ -1,0 +1,1 @@
+{"name":"phase-origin","version":"1.0.0","private":true,"type":"module","scripts":{"build":"node src/deploy/build-edgeone.mjs","test":"node --test tests/edgeone-build.test.mjs"},"engines":{"node":">=22.11.0"}}

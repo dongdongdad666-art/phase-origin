@@ -1,0 +1,10 @@
+/* Let the hero's existing animated material continue behind the transparent nav. */
+body[data-site-home] .opening{margin-top:-72px;height:100svh;min-height:752px;max-height:1122px}
+body[data-site-home] .opening-type{padding-top:calc(clamp(80px,14vh,160px) + 72px)}
+body[data-site-home] .opening-object{top:72px}
+@media(min-width:761px) and (max-width:1000px){body[data-site-home] .opening-type{padding-top:182px}}
+@media(max-width:760px){
+ body[data-site-home] .opening{height:auto;min-height:0;max-height:none}
+ body[data-site-home] .opening-type{padding-top:112px;min-height:310px}
+ body[data-site-home] .opening-object{top:auto}
+}
